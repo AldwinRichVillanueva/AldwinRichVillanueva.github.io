@@ -1,0 +1,32 @@
+body{
+    background: radial-gradient(ellipse at top right, #181a1d, transparent),
+            radial-gradient(ellipse at bottom, #141313, transparent);
+    margin: 100px;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#Navigation_Bar{
+    display: flex;
+    justify-content: left;
+}
+#Navigation_Bar nav{
+    margin: auto;
+    align-items: center;
+    font-size: 30px;
+}
+
+#Image_Layout{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+#Image_Layout img{ 
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
